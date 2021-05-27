@@ -6,6 +6,23 @@
 			#date {
 				text-align: center;
 			}
+
+      button {
+        font-style:italic;
+      }
+
+      .red {
+        background-color:red;
+      }
+
+      .purple {
+        background-color:purple;
+        color:white;
+      }
+
+      .datebutton {
+        font-size:20px;
+      }
 		</style>
     </head>
 
@@ -16,8 +33,12 @@
 
 		<script>getDate()</script>
 
-    <button type="button" onclick="red()">Red</button>
-    <button type="button" onclick="purple()">Purple</button>
+    <button class="red" type="button" onclick="red()">Red</button>
+    <button class="purple" type="button" onclick="purple()">Purple</button>
+
+    <br><br>
+    
+    <button class="datebutton" type="button" onclick="updatetime()">Update Time</button>
 	</body>
 </html>
 

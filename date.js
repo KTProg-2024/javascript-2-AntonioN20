@@ -13,3 +13,9 @@ function purple()
 {
   document.getElementById("date").style.color="purple";
 }
+
+function updatetime()
+{
+  var dateString = new Date();
+	document.getElementById("date").innerHTML=dateString;
+}
